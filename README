@@ -1,0 +1,6 @@
+## usleep - making the C function usleep available on the terminal
+
+This binary takes a number of microseconds to wait as parameter. This is usefull for use in bash scripts where you want to wait less than one second.
+The normally used tool sleep also accepts fractions of a second as argument but I wanted to write this tool.
+
+Author: Philipp Klaus <philipp.l.klaus AT web.de>
